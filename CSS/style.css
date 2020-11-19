@@ -282,6 +282,7 @@ ul.social-icons.list-inline{
 
 video#herovideo{
     width: 100%;
+    height: 100%;
 }
 
 .bx-wrapper .social-icons a{
@@ -309,7 +310,7 @@ video#herovideo{
     color: #f1f1f1;
     width: 100%;
     padding-left: 190px;
-    padding-top: 280px;
+    padding-top: 250px;
     padding-right: 550px;
     text-align: left;
 }
