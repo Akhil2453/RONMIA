@@ -1,2 +1,4 @@
 [1118/202042.416:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1119/064954.637:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1119/080011.869:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1119/200817.533:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Akhil Menon\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\9f73a7f3-8939-47ea-9f1f-67c34c39866d: The system cannot find the path specified. (0x3)

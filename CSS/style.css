@@ -455,3 +455,34 @@ p.text-secondary{
 #contents{
     margin-top: -450px;
 }
+
+.row.no-gutter [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#work h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 56px;
+    color: #6c757d !important;
+}
+
+.img-wrapper{
+    overflow: hidden;
+}
+
+.img-wrapper img{
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+#work img{
+    width: 100%;
+    height: auto;
+}
