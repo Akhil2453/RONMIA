@@ -574,7 +574,7 @@ p.text-secondary{
 
 .team-coverflow .team-text{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     padding: 2rem 0 2.5rem 0;
 }
 
@@ -606,6 +606,7 @@ p.text-secondary{
 .team-coverflow .team-img{
     overflow: hidden;
     width: 100%;
+    max-width: 600px;
 }
 
 .swiper-slide-active .team-coverflow:hover img{
@@ -657,4 +658,90 @@ p.text-secondary{
 
 .team-member-slider .swiper-slide{
     opacity: .5;
+}
+
+.live{
+    background-image: url(..//Images/live.jpg);
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+}
+
+.live h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.live p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.live a{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 30px;
+    background: transparent;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+    border: 2px solid white;
+}
+
+.services a:hover{
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    background: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ea1717;
+    font-size: 13px;
+}
+
+.numbers{
+    background-image: url(..//Images/guitar.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.color-fff{
+    color: white;
+}
+
+.fs-35{
+    font-size: 70px;
+}
+
+.fw-700{
+    font-weight: bold;
+}
+
+.color-aaa{
+    text-transform: uppercase;
+    font-size: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white !important;
+    letter-spacing: 2px;
+}
+
+.numbers .fa{
+    font-size: 65px;
 }
