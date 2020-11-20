@@ -281,6 +281,7 @@ ul.social-icons.list-inline{
 }
 
 video#herovideo{
+    position: rel;
     width: 100%;
     height: auto;
 }
