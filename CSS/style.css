@@ -414,7 +414,7 @@ ul.social-icons.list-inline{
 
 #about-us .carousel-control-next,
 #about-us .carousel-control-prev{
-    width: auto;
+    width: 40px;
 }
 
 #about-us .carousel-control-next{
@@ -494,6 +494,7 @@ p.text-secondary{
     padding-top: 50px;
     background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
 }
 
 #team h5{
@@ -521,9 +522,9 @@ p.text-secondary{
 #team .hi-slide{
     position: relative;
     width: 800px;
-    height: 800px;
+    height: 300px;
     border-radius: 50px;
-    margin: 115px auto 0;
+    margin: 85px auto 85px;
 }
 
 #team .hi-slide .hi-next,
