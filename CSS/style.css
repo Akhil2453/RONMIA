@@ -518,16 +518,16 @@ p.text-secondary{
     letter-spacing: 1px;
 }
 
-.hi-slide{
+#team .hi-slide{
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     border-radius: 50px;
     margin: 115px auto 0;
 }
 
-.hi-slide .hi-next,
-.hi-slide .hi-prev{
+#team .hi-slide .hi-next,
+#team .hi-slide .hi-prev{
     position: absolute;
     top: 50%;
     width: 40px;
@@ -544,29 +544,29 @@ p.text-secondary{
     font-weight: bold;
 }
 
-.hi-slide .hi-next:hover,
-.hi-slide .hi-prev:hover{
+#team .hi-slide .hi-next:hover,
+#team .hi-slide .hi-prev:hover{
     opacity: 1;
     background-color: white;
 }
 
-.hi-slide .hi-prev{
+#team .hi-slide .hi-prev{
     left: -69px;
 }
 
-.hi-slide .hi-prev::before{
+#team .hi-slide .hi-prev::before{
     content: '<'
 }
 
-.hi-slide .hi-next{
+#team .hi-slide .hi-next{
     left: 769px;
 }
 
-.hi-slide .hi-next::before{
+#team .hi-slide .hi-next::before{
     content: '>'
 }
 
-.hi-slide > ul{
+#team .hi-slide > ul{
     list-style: none;
     position: relative;
     width: 600px;
@@ -575,7 +575,7 @@ p.text-secondary{
     padding: 0;
 }
 
-.hi-slide > ul > li{
+#team .hi-slide > ul > li{
     overflow: hidden;
     position: absolute;
     z-index: 0;
@@ -590,14 +590,14 @@ p.text-secondary{
     background-color: #333;
 }
 
-.hi-slide > ul >li > img{
+#team .hi-slide > ul >li > img{
     width: 100%;
     height: 100%;
     background-position: center;
 
 }
 
-.hi-slide1{
+/*.hi-slide1{
     position: relative;
     width: 600px;
     height: 600px;
@@ -674,7 +674,7 @@ p.text-secondary{
     height: 100%;
     background-position: center;
 
-}
+}*/
 
 .live{
     background-image: url(..//Images/live.jpg);
