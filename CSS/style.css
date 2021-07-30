@@ -485,7 +485,7 @@ p.text-secondary{
 
 #work img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #team{
@@ -556,7 +556,9 @@ p.text-secondary{
 }
 
 .team-img{
-    position: relative;
+    width: 600px;
+    height: 600px;
+    object-fit: scale-down;
 }
 
 .team-social.white-bg{
@@ -606,8 +608,7 @@ p.text-secondary{
 
 .team-coverflow .team-img{
     overflow: hidden;
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .swiper-slide-active .team-coverflow:hover img{
